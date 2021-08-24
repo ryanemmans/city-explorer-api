@@ -32,7 +32,7 @@ In this lab assignment, you will begin building your own custom API server, whic
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-08-24-2021 4:00pm - Completed setup of City Explorer API repository
+08-24-2021 3:30pm - Completed setup of City Explorer API repository.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
@@ -57,8 +57,8 @@ Name of feature: 1. Set up your server repository.
 
 Name of feature: 2. Weather (placeholder): As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
 
-- Estimate of time needed to complete: 
-- Start time: 
+- Estimate of time needed to complete: 4 hours
+- Start time: 3:45pm
 - Finish time: 
 - Actual time needed to complete: 
 
