@@ -37,7 +37,9 @@ In this lab assignment, you will begin building your own custom API server, whic
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-Collaborated with Kyle Cohen on MRRC diagram and outline.
+- Collaborated with Kyle Cohen on MRRC diagram and outline.
+- Credit to TAs Hexx King and Michael Eclavea for their help.
+
 
 ### Additional Resources
 
@@ -57,7 +59,7 @@ Name of feature: 1. Set up your server repository.
 
 Name of feature: 2. Weather (placeholder): As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
 
-- Estimate of time needed to complete: 4 hours
+- Estimate of time needed to complete: 5 hours
 - Start time: 3:45pm
 - Finish time: 
 - Actual time needed to complete: 
