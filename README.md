@@ -26,6 +26,8 @@ In this lab assignment, you will begin building your own custom API server, whic
 - [dotenv Docs](https://www.npmjs.com/package/dotenv/)
 
 ![Lab 07 Diagram](./img/lab-07-diagram.png)
+![Lab 08 Diagram](./img/lab-08-diagram.png)
+
 
 ## Change Log
 <!-- Use this area to document the interactive changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -38,6 +40,7 @@ In this lab assignment, you will begin building your own custom API server, whic
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 - Collaborated with Kyle Cohen on MRRC diagram and outline.
+- Collaborated with Sarah Creager and Joe Ivans on the Lab 08 Diagram for third party APIs.
 - Credit to TAs Hexx King and Michael Eclavea for their help.
 
 

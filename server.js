@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const weather = require('./data/weather.json');
-
+const weatherData = require('./data/weather.json');
 require('dotenv').config();
 
 const app = express();
@@ -9,45 +8,49 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3001;
 
-// app.get('/', (request, response) => {
-//   response.send('hello world');
-// });
+app.get('/weather', (req, res) => {
+  const lat = req.query.lat;
+  const lon = req.query.lon;
+  let searchQuery = req.query.cityName;
+  const cityObject = weatherData.find(city => city.city_name.toLowerCase() === searchQuery.toLowerCase());
 
-app.get('/weather', (request, response) => {
-  const lat = request.query.lat;
-  const lon = request.query.lon;
-  let searchQuery = request.query.cityName;
-  const cityObject = weather.find(city => city.city_name.toLowerCase() === searchQuery.toLowerCase());
-  const forecast = new Forecast(cityObject);
-  response.send([forecast])
-  // response.send([lat, lon, searchQuery])
-  // console.log('SEARCHQUERY', city);
-  // const city = weather.find(city => {
-  //   console.log(city.city_name);
-  // });
-
-  if (forecast) {
-    const weather = forecast.data.map(day => new Forecast(day));
-    response.send(weather);
+  if (cityObject) {
+    const weather = cityObject.data.map(day => new Forecast(day));
+    res.status(200).send(weather);
+  } else if (cityObject.city_name !== searchQuery) {
+    res.status(400).send('No city found.');
   } else {
-    response.status(500).send('No city found.');
-    // throw new Error('Invalid');
-    // response.status(400).send('No city found.');
+    res.status(500).send('Internal server error.');
   }
 });
 
 class Forecast {
-  constructor (data) {
-  this.date = data(valid_date);
-  this.description = data(`Low of ${low_temp}, High of ${high_temp}, with ${weather.description}`);
-}}
+  constructor(day) {
+    this.date = day.valid_date;
+    this.description = `Low of ${day.low_temp}, High of ${day.high_temp}, with ${day.weather.description}`;
+  }
+}
 
-// function error(err, req, res, next) {
-//   console.log(err.stack);
+app.listen(PORT, () => console.log(`listening on port ${PORT}`))
+
+// ---------------------- UNUSED CODE ---------------------- //
+
+// app.get('/', (req, res) => {
+//   response.send('hello world');
+// });
+
+// const forecast = new Forecast(cityObject);
+  // res.send([forecast])
+  // res.send([lat, lon, searchQuery])
+  // const city = weather.find(city => {
+  // });
+
+  // throw new Error('Invalid');
+    // res.status(400).send('No city found.');
+
+    // function error(err, req, res, next) {
 //   res.status(500);
 //   res.send({ error: "Something went wrong."});
 // }
 
 // app.use(error);
-
-app.listen(PORT, () => console.log(`listening on port ${PORT}`))
