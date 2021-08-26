@@ -21,7 +21,7 @@ app.get('/weather', (req, res) => {
     res.status(400).send('No city found.');
   } else {
     res.status(500).send('Internal server error.');
-  }
+  };
 });
 
 class Forecast {
@@ -30,6 +30,13 @@ class Forecast {
     this.description = `Low of ${day.low_temp}, High of ${day.high_temp}, with ${day.weather.description}`;
   }
 }
+
+function error(err, req, res, next) {
+  res.status(500);
+  res.send({ error: "Something went wrong." });
+}
+
+app.use(error);
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
 
@@ -44,13 +51,3 @@ app.listen(PORT, () => console.log(`listening on port ${PORT}`))
   // res.send([lat, lon, searchQuery])
   // const city = weather.find(city => {
   // });
-
-  // throw new Error('Invalid');
-    // res.status(400).send('No city found.');
-
-    // function error(err, req, res, next) {
-//   res.status(500);
-//   res.send({ error: "Something went wrong."});
-// }
-
-// app.use(error);
