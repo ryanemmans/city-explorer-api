@@ -1,7 +1,7 @@
 # City Explorer API
 
 **Author**: Ryan Emmans
-**Version**: 1.0.0
+**Version**: 1.3.0
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 - - -
@@ -36,12 +36,17 @@ In this lab assignment, you will begin building your own custom API server, whic
 
 08-24-2021 3:30pm - Completed setup of City Explorer API repository.
 
+08-25-2021 6:00pm - Completed back-end and front-end Feature 2 tasks.
+
+08-25-2021 7:30pm - Completed error function.
+
+
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
 - Collaborated with Kyle Cohen on MRRC diagram and outline.
 - Collaborated with Sarah Creager and Joe Ivans on the Lab 08 Diagram for third party APIs.
-- Credit to TAs Hexx King and Michael Eclavea for their help.
+- Credit to TAs Hexx King, Michael Eclavea, Chance Harmon, and instructor JB Telles for all their help.
 
 
 ### Additional Resources
@@ -64,12 +69,12 @@ Name of feature: 2. Weather (placeholder): As a user of City Explorer, I want to
 
 - Estimate of time needed to complete: 5 hours
 - Start time: 3:45pm
-- Finish time: 
-- Actual time needed to complete: 
+- Finish time: 7:30pm following day
+- Actual time needed to complete: approx. 13 hours
 
 Name of feature: 3. Errors (revisited): As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
 
-- Estimate of time needed to complete: 
-- Start time: 
-- Finish time: 
-- Actual time needed to complete: 
+- Estimate of time needed to complete: 1 hour
+- Start time: 6:00pm
+- Finish time: 7:30pm
+- Actual time needed to complete: 1.5 hours
