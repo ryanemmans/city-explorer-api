@@ -1,7 +1,7 @@
 # City Explorer API
 
 **Author**: Ryan Emmans
-**Version**: 1.5.0
+**Version**: 1.5.1
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 - - -
@@ -40,7 +40,11 @@ In this lab assignment, you will begin building your own custom API server, whic
 
 08-25-2021 7:30pm - Completed error function.
 
-08-26-2021 6:00pm - Completed weather API
+08-26-2021 6:00pm - Completed weather API.
+
+08-26-2021 9300pm - Integrated movie API.
+
+08-26-2021 11:15pm - Created, exported, and required modules for weather and movies.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
@@ -49,7 +53,6 @@ In this lab assignment, you will begin building your own custom API server, whic
 - Collaborated with Sarah Creager and Joe Ivans on the Lab 08 Diagram for third party APIs.
 - Collaborated with Rachel Freeland on weather API functionality and learned a lot about debugging.
 - Credit to TAs Hexx King, Michael Eclavea, Chance Harmon, and instructor JB Telles for all their help.
-
 
 ### Additional Resources
 
@@ -102,6 +105,22 @@ Name of feature: 2. Movies: As a user of City Explorer, I want to see info about
 Name of feature: 3. Publish: Deploy your server. As a user, I want to access the City Explorer application on the web, so that anyone can explore from anywhere.
 
 - Estimate of time needed to complete: 1 hour
+- Start time: 
+- Finish time: 
+- Actual time needed to complete: 
+
+### Class 09 Time Estimate
+
+Name of feature: 1. Refactor: Modularize the back-end codebase.
+
+- Estimate of time needed to complete: 1 hour
+- Start time: 10:30pm
+- Finish time: 11:15pm
+- Actual time needed to complete: 45 minutes
+
+Name of feature: 2. Refactor: Componentize the front-end codebase.
+
+- Estimate of time needed to complete: 1 hours
 - Start time: 
 - Finish time: 
 - Actual time needed to complete: 
