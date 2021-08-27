@@ -1,7 +1,7 @@
 # City Explorer API
 
 **Author**: Ryan Emmans
-**Version**: 1.4.0
+**Version**: 1.5.0
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 - - -
@@ -96,8 +96,8 @@ Name of feature: 2. Movies: As a user of City Explorer, I want to see info about
 
 - Estimate of time needed to complete: 3 hours
 - Start time: 6:30pm
-- Finish time: 
-- Actual time needed to complete: 
+- Finish time: 10:00
+- Actual time needed to complete: 3.5 hours
 
 Name of feature: 3. Publish: Deploy your server. As a user, I want to access the City Explorer application on the web, so that anyone can explore from anywhere.
 
