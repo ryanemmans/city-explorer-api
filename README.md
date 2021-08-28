@@ -27,7 +27,7 @@ In this lab assignment, you will begin building your own custom API server, whic
 
 ![Lab 07 Diagram](./img/lab-07-diagram.png)
 ![Lab 08 Diagram](./img/lab-08-diagram.png)
-
+![Lab 10 Diagram](./img/lab-10-diagram.png)
 
 ## Change Log
 <!-- Use this area to document the interactive changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -52,6 +52,7 @@ In this lab assignment, you will begin building your own custom API server, whic
 - Collaborated with Kyle Cohen on MRRC diagram and outline.
 - Collaborated with Sarah Creager and Joe Ivans on the Lab 08 Diagram for third party APIs.
 - Collaborated with Rachel Freeland on weather API functionality and learned a lot about debugging.
+- Collaborated with Stefanie Riehle on cache / in memory database diagram.
 - Credit to TAs Hexx King, Michael Eclavea, Chance Harmon, and instructor JB Telles for all their help.
 
 ### Additional Resources
