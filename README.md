@@ -1,7 +1,7 @@
 # City Explorer API
 
 **Author**: Ryan Emmans
-**Version**: 1.5.1
+**Version**: 1.5.3
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 - - -
