@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 async function movies(req, res) {
-  const movieQuery = req.query.movieQuery;
-  console.log(movieQuery);
+  const movieQuery = req.query.searchQuery;
+  console.log('MOVIE QUERY???', movieQuery);
 
   try {
     const moviesKey = process.env.MOVIE_API_KEY;
