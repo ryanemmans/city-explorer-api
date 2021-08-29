@@ -17,6 +17,19 @@ app.get('/movies', movies);
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
 
+// -------------------- STARTER CODE -------------------- //
+
+function weatherHandler(req, res) {
+  const { lat, lon } = req.query;
+  weather(lat, lon)
+  .then(summaries => res.send(summaries))
+  .catch((error) => {
+    console.error(error);
+    res.status(500).send('Sorry. Something went wrong!')
+  });
+}  
+
+// ------------------------------------------------------ //
 
 
 
@@ -24,7 +37,9 @@ app.listen(PORT, () => console.log(`listening on port ${PORT}`))
 
 
 
-// ---------------------- UNUSED CODE ---------------------- //
+
+
+// -------------------- UNUSED CODE --------------------- //
 
 // const searchQuery = req.query.query;
   // const cityObject = weatherData.find(city => city.city_name.toLowerCase() === searchQuery.toLowerCase());

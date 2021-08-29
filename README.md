@@ -46,6 +46,10 @@ In this lab assignment, you will begin building your own custom API server, whic
 
 08-26-2021 11:15pm - Created, exported, and required modules for weather and movies.
 
+08-27-2021 6:00pm - Added movie poster images.
+
+08-28-2021 8:00pm - Adds cache and updates API modules.
+
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
@@ -106,9 +110,9 @@ Name of feature: 2. Movies: As a user of City Explorer, I want to see info about
 Name of feature: 3. Publish: Deploy your server. As a user, I want to access the City Explorer application on the web, so that anyone can explore from anywhere.
 
 - Estimate of time needed to complete: 1 hour
-- Start time: 
-- Finish time: 
-- Actual time needed to complete: 
+- Start time: 4:00pm
+- Finish time: 5:00pm
+- Actual time needed to complete: 1 hour
 
 ### Class 09 Time Estimate
 
@@ -121,7 +125,16 @@ Name of feature: 1. Refactor: Modularize the back-end codebase.
 
 Name of feature: 2. Refactor: Componentize the front-end codebase.
 
-- Estimate of time needed to complete: 1 hours
-- Start time: 
-- Finish time: 
-- Actual time needed to complete: 
+- Estimate of time needed to complete: 1 hour
+- Start time: 4:00pm
+- Finish time: 6:00pm
+- Actual time needed to complete: 2 hours
+
+### Class 10 Time Estimate
+
+Name of feature: 1. Refactor: Performance: As a user, I want the application to work with recent results, so that I can see info without the app doing unnecessary API calls.
+
+- Estimate of time needed to complete: 4 hours
+- Start time: 5:00pm
+- Finish time: 8:00pm
+- Actual time needed to complete: 3 hours
