@@ -17,17 +17,17 @@ app.get('/movies', movies);
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`))
 
-// -------------------- STARTER CODE -------------------- //
+// -------------- STARTER CODE (WORKED ON ) -------------- //
 
-function weatherHandler(req, res) {
-  const { lat, lon } = req.query;
-  weather(lat, lon)
-  .then(summaries => res.send(summaries))
-  .catch((error) => {
-    console.error(error);
-    res.status(500).send('Sorry. Something went wrong!')
-  });
-}  
+// function weatherHandler(req, res) {
+//   const { lat, lon } = req.query;
+//   weather(lat, lon)
+//   .then(summaries => res.send(summaries))
+//   .catch((error) => {
+//     console.error(error);
+//     res.status(500).send('Sorry. Something went wrong!')
+//   });
+// }  
 
 // ------------------------------------------------------ //
 
